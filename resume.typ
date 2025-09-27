@@ -3,7 +3,7 @@
 // Personal Information
 #let name = "Nafisa Berliana Indah Pratiwi"
 #let email = "nafisaberlianaindahpratiwi@gmail.com"
-#let github = "nafisaberlyana.netlify.app"
+#let github = "berlyanafisa.github.io"
 #let linkedin = "linkedin.com/in/nafisabip"
 #let contacts = (
   [#link("mailto:" + email)[#email]],
