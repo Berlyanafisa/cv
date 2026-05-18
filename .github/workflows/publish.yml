@@ -25,6 +25,9 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Copy cv2.pdf to site
+        run: cp cv2.pdf _site/cv2.pdf
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
